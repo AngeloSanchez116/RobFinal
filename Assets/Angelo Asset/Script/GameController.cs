@@ -9,6 +9,7 @@ public class GameController : MonoBehaviour
     private GameObject lavaFloor;
     private GameObject updownPlat;
     private float timer;
+    public bool Istrue = true;
 
     // Start is called be fore the first frame update
     void Start()
@@ -23,13 +24,14 @@ public class GameController : MonoBehaviour
     {
         timer = Time.deltaTime;
 
-        /*lavaFloor.transform.position += new Vector3(0, timer ,0);
+        if (Istrue == true) 
+        { lavaFloor.transform.position += new Vector3(0, timer, 0);
 
-        if (player.transform.position.y < lavaFloor.transform.position.y - 2) {
+            if (player.transform.position.y < lavaFloor.transform.position.y - 2) {
 
-            SceneManager.LoadScene(0);
+                SceneManager.LoadScene(0);
 
-        }*/
-
+            }
+        }
     }
 }
