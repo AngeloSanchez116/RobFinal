@@ -6,7 +6,7 @@ public class PauseMenu : MonoBehaviour
 {
 
     public bool gameIsPause = false;
-    public GameObject PauseText;
+    public GameObject pauseMenu;
     public GameObject player;
 
     // Start is called before the first frame update
@@ -36,26 +36,11 @@ public class PauseMenu : MonoBehaviour
             }
         }
 
-        /*if (gameIsPause == true && Input.GetKeyDown(KeyCode.R))
-        {
-
-            ReloadGame();
-
-        }
-
-        if (gameIsPause == true && Input.GetKeyDown(KeyCode.H))
-        {
-
-            ExitGame();
-
-        }*/
-
-
     }
     public void Resume()
     {
         Cursor.visible = false;
-        PauseText.SetActive(false);
+        pauseMenu.SetActive(false);
         Time.timeScale = 1f;
         gameIsPause = false;
 
@@ -64,7 +49,7 @@ public class PauseMenu : MonoBehaviour
     {
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
-        PauseText.SetActive(true);
+        pauseMenu.SetActive(true);
         Time.timeScale = 0f;
         gameIsPause = true;
 
