@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 88ff3d26b97c0094f8c631d462191ee7, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.71100473, g: 0.8196587, b: 0.8307835, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -323,7 +323,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 57018882}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.9908562, y: -20.200058, z: 36.572037}
+  m_LocalPosition: {x: -9.98, y: -19.98, z: 20.64}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 535820026}
@@ -341,7 +341,7 @@ GameObject:
   - component: {fileID: 221403684}
   - component: {fileID: 221403683}
   - component: {fileID: 221403682}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Level3_Platform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -503,7 +503,7 @@ GameObject:
   - component: {fileID: 256742820}
   - component: {fileID: 256742819}
   - component: {fileID: 256742818}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Level4_Platform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -596,7 +596,7 @@ GameObject:
   - component: {fileID: 267710260}
   - component: {fileID: 267710259}
   - component: {fileID: 267710258}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Level4_Platform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -689,7 +689,7 @@ GameObject:
   - component: {fileID: 274797192}
   - component: {fileID: 274797191}
   - component: {fileID: 274797190}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Level5_Platform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -783,7 +783,7 @@ GameObject:
   - component: {fileID: 281817387}
   - component: {fileID: 281817386}
   - component: {fileID: 281817390}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Level3_UpDownPlatform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -894,7 +894,7 @@ GameObject:
   - component: {fileID: 299934893}
   - component: {fileID: 299934892}
   - component: {fileID: 299934891}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Level5_UpDown
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1001,7 +1001,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 310444726}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Floor 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1054,7 +1054,7 @@ GameObject:
   - component: {fileID: 316434941}
   - component: {fileID: 316434940}
   - component: {fileID: 316434939}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Level3_Floor2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1213,7 +1213,7 @@ GameObject:
   - component: {fileID: 355352363}
   - component: {fileID: 355352362}
   - component: {fileID: 355352361}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Level 1 Floor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1307,7 +1307,7 @@ GameObject:
   - component: {fileID: 365830178}
   - component: {fileID: 365830177}
   - component: {fileID: 365830176}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Level3_UpDownPlatform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1578,7 +1578,7 @@ GameObject:
   - component: {fileID: 499739383}
   - component: {fileID: 499739382}
   - component: {fileID: 499739381}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Level3_Platform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1705,7 +1705,7 @@ GameObject:
   - component: {fileID: 567988639}
   - component: {fileID: 567988638}
   - component: {fileID: 567988637}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Level5_Platform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1798,7 +1798,7 @@ GameObject:
   - component: {fileID: 585864287}
   - component: {fileID: 585864286}
   - component: {fileID: 585864285}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Level5_Platform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1891,7 +1891,7 @@ GameObject:
   - component: {fileID: 587817971}
   - component: {fileID: 587817970}
   - component: {fileID: 587817969}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Level4_Platform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2127,6 +2127,99 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 591134778}
   m_CullTransparentMesh: 0
+--- !u!1 &595833732
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 595833733}
+  - component: {fileID: 595833736}
+  - component: {fileID: 595833735}
+  - component: {fileID: 595833734}
+  m_Layer: 0
+  m_Name: GroundCheck
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &595833733
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 595833732}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.0099983215, y: -1.06, z: 0.059999466}
+  m_LocalScale: {x: 1, y: 0.5, z: 0.5}
+  m_Children: []
+  m_Father: {fileID: 1617147172}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &595833734
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 595833732}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &595833735
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 595833732}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &595833736
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 595833732}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &595867066
 GameObject:
   m_ObjectHideFlags: 0
@@ -2139,7 +2232,7 @@ GameObject:
   - component: {fileID: 595867069}
   - component: {fileID: 595867068}
   - component: {fileID: 595867067}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Level 1 Ceiling
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2232,7 +2325,7 @@ GameObject:
   - component: {fileID: 612114352}
   - component: {fileID: 612114351}
   - component: {fileID: 612114350}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Level5_Platform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2424,7 +2517,7 @@ GameObject:
   - component: {fileID: 705136326}
   - component: {fileID: 705136325}
   - component: {fileID: 705136324}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Level1_Platform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2579,7 +2672,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: 6.95e-43, y: 7.37e-43, z: 0, w: -1}
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
@@ -2609,7 +2702,7 @@ GameObject:
   - component: {fileID: 709874346}
   - component: {fileID: 709874345}
   - component: {fileID: 709874344}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Level4_Floor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2703,7 +2796,7 @@ GameObject:
   - component: {fileID: 715217644}
   - component: {fileID: 715217643}
   - component: {fileID: 715217642}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Level5_Portal
   m_TagString: Portal
   m_Icon: {fileID: 0}
@@ -2810,7 +2903,7 @@ GameObject:
   - component: {fileID: 716081947}
   - component: {fileID: 716081946}
   - component: {fileID: 716081945}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Level3_Floor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2903,7 +2996,7 @@ GameObject:
   - component: {fileID: 724845013}
   - component: {fileID: 724845012}
   - component: {fileID: 724845011}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Level2_ Platform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2997,7 +3090,7 @@ GameObject:
   - component: {fileID: 727167405}
   - component: {fileID: 727167404}
   - component: {fileID: 727167407}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Level1_Portal
   m_TagString: Portal
   m_Icon: {fileID: 0}
@@ -3169,7 +3262,7 @@ GameObject:
   - component: {fileID: 753639963}
   - component: {fileID: 753639962}
   - component: {fileID: 753639961}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Level4_Platform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3262,7 +3355,7 @@ GameObject:
   - component: {fileID: 779078000}
   - component: {fileID: 779077999}
   - component: {fileID: 779077998}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Level4_Platform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3355,7 +3448,7 @@ GameObject:
   - component: {fileID: 784808685}
   - component: {fileID: 784808684}
   - component: {fileID: 784808683}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Level4_Platform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3448,7 +3541,7 @@ GameObject:
   - component: {fileID: 791512118}
   - component: {fileID: 791512117}
   - component: {fileID: 791512116}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Level1_Platform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3538,7 +3631,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 799972843}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Floor 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3582,7 +3675,7 @@ GameObject:
   - component: {fileID: 812948071}
   - component: {fileID: 812948070}
   - component: {fileID: 812948074}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Level2_ UpDownPlatform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3692,7 +3785,7 @@ GameObject:
   - component: {fileID: 814001463}
   - component: {fileID: 814001462}
   - component: {fileID: 814001461}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Level1_Platform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3785,7 +3878,7 @@ GameObject:
   - component: {fileID: 819827842}
   - component: {fileID: 819827841}
   - component: {fileID: 819827840}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Level3_Platform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3958,7 +4051,7 @@ GameObject:
   - component: {fileID: 935517183}
   - component: {fileID: 935517182}
   - component: {fileID: 935517181}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Level5_UpDown
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4093,7 +4186,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0.8000001, g: 0.8000001, b: 0.8000001, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -4167,7 +4260,7 @@ GameObject:
   - component: {fileID: 1028778104}
   - component: {fileID: 1028778103}
   - component: {fileID: 1028778102}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Level1_Platform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4261,7 +4354,7 @@ GameObject:
   - component: {fileID: 1045435514}
   - component: {fileID: 1045435513}
   - component: {fileID: 1045435512}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Level5_UpDown
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4371,7 +4464,7 @@ GameObject:
   - component: {fileID: 1055357427}
   - component: {fileID: 1055357426}
   - component: {fileID: 1055357425}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Level4_Platform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4464,7 +4557,7 @@ GameObject:
   - component: {fileID: 1072556212}
   - component: {fileID: 1072556211}
   - component: {fileID: 1072556210}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Level5_Platform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4557,7 +4650,7 @@ GameObject:
   - component: {fileID: 1080899412}
   - component: {fileID: 1080899411}
   - component: {fileID: 1080899410}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Level4_Ceiling
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4729,7 +4822,7 @@ GameObject:
   - component: {fileID: 1105320270}
   - component: {fileID: 1105320269}
   - component: {fileID: 1105320268}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Level4_Platform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4822,7 +4915,7 @@ GameObject:
   - component: {fileID: 1108434661}
   - component: {fileID: 1108434660}
   - component: {fileID: 1108434659}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Level4_Platform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4915,7 +5008,7 @@ GameObject:
   - component: {fileID: 1119298888}
   - component: {fileID: 1119298887}
   - component: {fileID: 1119298886}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Level5_Platform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5008,7 +5101,7 @@ GameObject:
   - component: {fileID: 1133059261}
   - component: {fileID: 1133059260}
   - component: {fileID: 1133059259}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Level1_Platform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5101,7 +5194,7 @@ GameObject:
   - component: {fileID: 1140308216}
   - component: {fileID: 1140308215}
   - component: {fileID: 1140308214}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Level4_Platform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5194,7 +5287,7 @@ GameObject:
   - component: {fileID: 1149325579}
   - component: {fileID: 1149325578}
   - component: {fileID: 1149325577}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Level4_Platform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5287,7 +5380,7 @@ GameObject:
   - component: {fileID: 1179629001}
   - component: {fileID: 1179629000}
   - component: {fileID: 1179628999}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Level4_Platform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5380,7 +5473,7 @@ GameObject:
   - component: {fileID: 1184354064}
   - component: {fileID: 1184354063}
   - component: {fileID: 1184354062}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Level5_Platform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5473,7 +5566,7 @@ GameObject:
   - component: {fileID: 1192090186}
   - component: {fileID: 1192090185}
   - component: {fileID: 1192090184}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Level2_ Platform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5566,7 +5659,7 @@ GameObject:
   - component: {fileID: 1194655539}
   - component: {fileID: 1194655538}
   - component: {fileID: 1194655537}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Level3_Platform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5785,7 +5878,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1235882584}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Floor 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5831,7 +5924,7 @@ GameObject:
   - component: {fileID: 1249208051}
   - component: {fileID: 1249208050}
   - component: {fileID: 1249208054}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Level2_ UpDownPlatform
   m_TagString: UpDown
   m_Icon: {fileID: 0}
@@ -5941,7 +6034,7 @@ GameObject:
   - component: {fileID: 1327771951}
   - component: {fileID: 1327771950}
   - component: {fileID: 1327771949}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Level2_ Platform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6034,7 +6127,7 @@ GameObject:
   - component: {fileID: 1331367551}
   - component: {fileID: 1331367550}
   - component: {fileID: 1331367549}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Level2_Floor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6128,7 +6221,7 @@ GameObject:
   - component: {fileID: 1378258657}
   - component: {fileID: 1378258656}
   - component: {fileID: 1378258655}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Level4_Portal
   m_TagString: Portal
   m_Icon: {fileID: 0}
@@ -6235,7 +6328,7 @@ GameObject:
   - component: {fileID: 1422180119}
   - component: {fileID: 1422180118}
   - component: {fileID: 1422180117}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Level2_ Platform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6328,7 +6421,7 @@ GameObject:
   - component: {fileID: 1425538361}
   - component: {fileID: 1425538360}
   - component: {fileID: 1425538359}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Level5_Platform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6421,7 +6514,7 @@ GameObject:
   - component: {fileID: 1437737690}
   - component: {fileID: 1437737689}
   - component: {fileID: 1437737688}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Level1_Platform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6514,7 +6607,7 @@ GameObject:
   - component: {fileID: 1465532517}
   - component: {fileID: 1465532516}
   - component: {fileID: 1465532515}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Level2_Ceiling
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6607,7 +6700,7 @@ GameObject:
   - component: {fileID: 1494416487}
   - component: {fileID: 1494416486}
   - component: {fileID: 1494416485}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Level4_Platform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6700,7 +6793,7 @@ GameObject:
   - component: {fileID: 1503967116}
   - component: {fileID: 1503967115}
   - component: {fileID: 1503967114}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Level1_Platform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6793,7 +6886,7 @@ GameObject:
   - component: {fileID: 1517950466}
   - component: {fileID: 1517950465}
   - component: {fileID: 1517950464}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Level4_Platform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6886,7 +6979,7 @@ GameObject:
   - component: {fileID: 1546269216}
   - component: {fileID: 1546269215}
   - component: {fileID: 1546269214}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Level3_Platform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6979,7 +7072,7 @@ GameObject:
   - component: {fileID: 1614609335}
   - component: {fileID: 1614609334}
   - component: {fileID: 1614609333}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Level5_Platform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7170,6 +7263,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 963194228}
+  - {fileID: 595833733}
   m_Father: {fileID: 0}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -7190,6 +7284,12 @@ MonoBehaviour:
   runSpeed: 15
   walkSpeed: 10
   jumpforce: 450
+  groundCheck: {fileID: 595833733}
+  groundDistance: 0.4
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 512
+  isground: 0
 --- !u!1 &1667473404
 GameObject:
   m_ObjectHideFlags: 0
@@ -7203,7 +7303,7 @@ GameObject:
   - component: {fileID: 1667473408}
   - component: {fileID: 1667473407}
   - component: {fileID: 1667473406}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Level3_Portal
   m_TagString: Portal
   m_Icon: {fileID: 0}
@@ -7311,7 +7411,7 @@ GameObject:
   - component: {fileID: 1690491228}
   - component: {fileID: 1690491227}
   - component: {fileID: 1690491226}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Level2_ UpDownPlatform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7576,7 +7676,7 @@ GameObject:
   - component: {fileID: 1753788933}
   - component: {fileID: 1753788932}
   - component: {fileID: 1753788931}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Level3_Platform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7666,7 +7766,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1804373725}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Floor 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7712,7 +7812,7 @@ GameObject:
   - component: {fileID: 1867356953}
   - component: {fileID: 1867356952}
   - component: {fileID: 1867356951}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Level1_Platform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7805,7 +7905,7 @@ GameObject:
   - component: {fileID: 1887748782}
   - component: {fileID: 1887748781}
   - component: {fileID: 1887748780}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Level5_Platform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7899,7 +7999,7 @@ GameObject:
   - component: {fileID: 1904731449}
   - component: {fileID: 1904731448}
   - component: {fileID: 1904731447}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Level2_Portal
   m_TagString: Portal
   m_Icon: {fileID: 0}
@@ -8290,7 +8390,7 @@ GameObject:
   - component: {fileID: 1971638592}
   - component: {fileID: 1971638591}
   - component: {fileID: 1971638590}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Level4_Platform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8389,7 +8489,7 @@ GameObject:
   - component: {fileID: 2027292822}
   - component: {fileID: 2027292821}
   - component: {fileID: 2027292820}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Level1_Platform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8482,7 +8582,7 @@ GameObject:
   - component: {fileID: 2039615344}
   - component: {fileID: 2039615343}
   - component: {fileID: 2039615342}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Level4_Platform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8575,7 +8675,7 @@ GameObject:
   - component: {fileID: 2057230260}
   - component: {fileID: 2057230259}
   - component: {fileID: 2057230258}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Level3_Platform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8668,7 +8768,7 @@ GameObject:
   - component: {fileID: 2072941824}
   - component: {fileID: 2072941823}
   - component: {fileID: 2072941822}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Level3_Platform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8761,7 +8861,7 @@ GameObject:
   - component: {fileID: 2089340294}
   - component: {fileID: 2089340293}
   - component: {fileID: 2089340292}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Level4_Platform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8851,7 +8951,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2092535167}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Floor 5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8978,7 +9078,7 @@ GameObject:
   - component: {fileID: 2130305189}
   - component: {fileID: 2130305188}
   - component: {fileID: 2130305187}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Level5_Platform
   m_TagString: Untagged
   m_Icon: {fileID: 0}

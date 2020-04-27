@@ -9,14 +9,19 @@ public class PlayerMovement : MonoBehaviour
     public float runSpeed;
     public float walkSpeed;
     public float jumpforce;
-    
 
+    public Transform groundCheck;
+    public float groundDistance = 0.4f;
+    public LayerMask groundMask;
+
+    public bool isground;
     // Update is called once per frame
     void Update()
     {
+        isground = Physics.CheckSphere(groundCheck.position,groundDistance,groundMask);
         PlayerControl();
 
-        if (Input.GetKeyDown(KeyCode.Space)) {
+        if (Input.GetKeyDown(KeyCode.Space) && isground) {
 
             Jump();
         }
