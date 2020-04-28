@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class RotateScript : MonoBehaviour
 {
-    public int speed;
+    public float speed;
     // Update is called once per frame
     void Update()
     {
