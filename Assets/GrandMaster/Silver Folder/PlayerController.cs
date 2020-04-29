@@ -5,7 +5,10 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     public Rigidbody playerRb;
+    public Collider p_Collider;
 
+    public float stoppingFriction;
+    public float airResistance;
     public float runSpeedX;
     public float movementMasterSpeed;
     public float movementSpeed;
@@ -17,22 +20,34 @@ public class PlayerController : MonoBehaviour
     private int jumps;
 
     public bool inAir = false;
+    public bool isRunning = false;
 
     private void Start()
     {
         jumpX = jumpForce * 1000;
+        p_Collider = GetComponent<Collider>();
     }
 
     // Update is called once per frame
     void Update()
     {
         PlayerControl();
+        if (inAir == false && !Input.anyKey)
+        {
+            //print("Nothing is being pressed");
+            playerRb.drag = stoppingFriction;
+            isRunning = false;
+        }
+        else
+        {
+            playerRb.drag = 1;
+        }
+        
 
         if (Input.GetKeyDown(KeyCode.Space)) 
         {
             Jump();
         }
-
         if (Input.GetKey(KeyCode.LeftShift) && Input.GetKey(KeyCode.W))
         {
             run();
@@ -91,9 +106,12 @@ public class PlayerController : MonoBehaviour
 
     public void run() 
     {
+        isRunning = true;
+        playerRb.drag = 1;
+
         if (inAir == true)
         {
-            movementSpeed = (movementMasterSpeed/4) *runSpeedX;
+            movementSpeed = (movementMasterSpeed/airResistance) *runSpeedX;
         }
         else
         {
@@ -103,9 +121,12 @@ public class PlayerController : MonoBehaviour
 
     public void walking() 
     {
-        if(inAir == true)
+        isRunning = false;
+        playerRb.drag = 1;
+
+        if (inAir == true)
         {
-            movementSpeed = movementMasterSpeed/4;
+            movementSpeed = movementMasterSpeed/airResistance;
         }
         else
         {
@@ -118,6 +139,11 @@ public class PlayerController : MonoBehaviour
         inAir = false;
         jumps = 0;
         movementSpeed = movementMasterSpeed;
+    }
+
+    private void OnCollisionStay(Collision collision)
+    {
+        inAir = false;
     }
 
     private void OnCollisionExit(Collision collision)

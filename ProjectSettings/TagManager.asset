@@ -8,6 +8,7 @@ TagManager:
   - Portal
   - Lava
   - UpDown
+  - Climb
   layers:
   - Default
   - TransparentFX

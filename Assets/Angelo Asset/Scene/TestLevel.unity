@@ -9239,6 +9239,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerRb: {fileID: 5392145925794260879}
+  p_Collider: {fileID: 0}
+  stoppingFriction: 0
+  airResistance: 0
   runSpeedX: 1.5
   movementMasterSpeed: 15
   movementSpeed: 15
@@ -9246,6 +9249,7 @@ MonoBehaviour:
   jumpForce: 10
   jumpMax: 1
   inAir: 0
+  isRunning: 0
 --- !u!1 &5392145925799576809
 GameObject:
   m_ObjectHideFlags: 0
