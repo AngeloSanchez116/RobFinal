@@ -9,6 +9,7 @@ TagManager:
   - Lava
   - UpDown
   - Climb
+  - Disappear
   layers:
   - Default
   - TransparentFX
