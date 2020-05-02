@@ -10,6 +10,7 @@ TagManager:
   - UpDown
   - Climb
   - Disappear
+  - WallRuning
   layers:
   - Default
   - TransparentFX
