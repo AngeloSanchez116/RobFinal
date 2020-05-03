@@ -12,14 +12,8 @@ public class PlayerFloat : MonoBehaviour
     Vector3 posOffset = new Vector3();
     Vector3 tempPos = new Vector3();
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
              // Float up/down with a Sin()
              posOffset = transform.position;

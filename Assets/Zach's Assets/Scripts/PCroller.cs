@@ -78,7 +78,7 @@ public class PCroller : MonoBehaviour
 
         if(inAir)
         {
-            playerRb.drag = 1f;
+            playerRb.drag = .5f;
             if (isGrounded && !isJumping)
             {
                 StickToGroundHelper();

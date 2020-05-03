@@ -30,10 +30,13 @@ public class Wallrunner : MonoBehaviour
 
     private void OnTriggerStay(Collider other)
     {
-        Player.transform.position = new Vector3(Player.transform.position.x, p_posY.y, Player.transform.position.z);
-        //Player.transform.parent = transform;
-        playerRB.useGravity = false;
-        Player.GetComponent<PCroller>().inAir = false;
+        if (other.tag == "WallRunner")
+        {
+            Player.transform.position = new Vector3(Player.transform.position.x, p_posY.y, Player.transform.position.z);
+            //Player.transform.parent = transform;
+            playerRB.useGravity = false;
+            Player.GetComponent<PCroller>().inAir = false;
+        }
     }
 
     private void OnTriggerExit(Collider other)
