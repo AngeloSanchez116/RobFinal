@@ -10,7 +10,9 @@ TagManager:
   - UpDown
   - Climb
   - Disappear
-  - WallRuning
+  - Face
+  - Collectable
+  - WallRunner
   layers:
   - Default
   - TransparentFX

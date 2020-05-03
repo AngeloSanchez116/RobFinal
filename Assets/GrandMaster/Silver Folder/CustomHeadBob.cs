@@ -9,7 +9,7 @@ public class CustomHeadBob : MonoBehaviour
     public NewLerpBob jumpAndLandingBob = new NewLerpBob();
     public Rigidbody playerRb;
     private GameObject thePlayer;
-    private PlayerController playerController;
+    private PCroller playerController;
 
     //public RigidbodyFirstPersonController rigidbodyFirstPersonController;
     public float StrideInterval;
@@ -23,7 +23,7 @@ public class CustomHeadBob : MonoBehaviour
     private void Start()
     {
         thePlayer = GameObject.FindGameObjectWithTag("Player");
-        playerController = thePlayer.GetComponent<PlayerController>();
+        playerController = thePlayer.GetComponent<PCroller>();
         motionBob.Setup(Camera, StrideInterval);
         m_OriginalCameraPosition = Camera.transform.localPosition;
         //     m_CameraRefocus = new CameraRefocus(Camera, transform.root.transform, Camera.transform.localPosition);

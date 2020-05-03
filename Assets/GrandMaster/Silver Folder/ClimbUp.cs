@@ -26,7 +26,7 @@ public class ClimbUp : MonoBehaviour
             MainCamera.depth = 0;
             parkourCamera.depth = 1;
             playerRB.isKinematic = true;
-            GetComponent<PlayerController>().enabled = false;
+            GetComponent<PCroller>().enabled = false;
             anim.SetTrigger("Climb");
             StartCoroutine(afterClimb());
         }
@@ -38,19 +38,19 @@ public class ClimbUp : MonoBehaviour
         MainCamera.depth = 1;
         parkourCamera.depth = 0;
         playerRB.isKinematic = false;
-        GetComponent<PlayerController>().enabled = true;
+        GetComponent<PCroller>().enabled = true;
         transform.position = parkourCamera.transform.position;
         parkourCamera.GetComponent<Animator>().enabled = false;
     }
 
     private void OnTriggerEnter(Collider other)
     {
-        print("I have collided with the trigger");
+
         if(other.tag == "Climb")
         {
+            print("I can Climb here");
             canClimb = true;
         }
-
     }
 
     private void OnTriggerStay(Collider other)

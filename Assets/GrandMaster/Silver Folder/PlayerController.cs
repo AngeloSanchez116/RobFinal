@@ -31,7 +31,7 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        PlayerControl();
+
         if (inAir == false && !Input.anyKey)
         {
             //print("Nothing is being pressed");
@@ -56,6 +56,11 @@ public class PlayerController : MonoBehaviour
         {
             walking();
         }
+    }
+
+    private void FixedUpdate()
+    {
+        PlayerControl();
     }
 
     public void PlayerControl() 
