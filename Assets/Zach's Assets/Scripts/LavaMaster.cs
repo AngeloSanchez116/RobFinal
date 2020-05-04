@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class LavaMaster : MonoBehaviour
 {
@@ -9,5 +10,13 @@ public class LavaMaster : MonoBehaviour
     void Update()
     {
         transform.Rotate(0, speed, 0);
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if(collision.gameObject.tag == "Player")
+        {
+            SceneManager.LoadScene(1);
+        }
     }
 }
