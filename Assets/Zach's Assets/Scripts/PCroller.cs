@@ -103,6 +103,7 @@ public class PCroller : MonoBehaviour
 
         Vector3 Movement = transform.right * m_Horizontal + transform.forward * m_Vertical;
         playerRb.AddForce(Movement * movementSpeed, ForceMode.Impulse);
+        //playerRb.velocity();
 
     }
 

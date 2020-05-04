@@ -30,7 +30,7 @@ public class PortalProperties : MonoBehaviour
         {
             //move scenes or location
             //collision.gameObject.transform.position = respawn.transform.position;
-            SceneManager.LoadScene(1);
+            SceneManager.LoadScene(0);
         }
     }
 }
