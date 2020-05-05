@@ -13,6 +13,7 @@ public class LavaTrigger : MonoBehaviour
     private void Start()
     {
         audioSource = GetComponent<AudioSource>();
+        gameController = GameObject.FindGameObjectWithTag("GameController");
     }
     private void OnTriggerEnter(Collider other)
     {
