@@ -42,6 +42,7 @@ public class PCroller : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        
         float rotHorizontal = Input.GetAxis("Mouse X") * turningSpeed * Time.deltaTime;
         transform.Rotate(0, rotHorizontal, 0);
 
@@ -149,6 +150,7 @@ public class PCroller : MonoBehaviour
 
     private void GroundCheck()
     {
+
         isGrounded = !inAir;
         RaycastHit hitInfo;
         if (Physics.SphereCast(transform.position, p_Collider.radius * (1.0f - shellOffset), Vector3.down, out hitInfo,
@@ -156,6 +158,9 @@ public class PCroller : MonoBehaviour
         {
             inAir = false;
             jumps = 0;
+            /*if (!GetComponent<SoundFxManger>().SoundFx.isPlaying) {
+                GetComponent<SoundFxManger>().SoundFx.PlayOneShot(GetComponent<SoundFxManger>().audioclipfx[1]);
+            }*/
             //GroundContactNormal = hitInfo.normal;
         }
         else
