@@ -27,7 +27,6 @@ public class GameController : MonoBehaviour
     {
         lavaFloor = GameObject.FindGameObjectWithTag("Lava");
         player = GameObject.FindGameObjectWithTag("Player");
-        Cursor.lockState = CursorLockMode.Confined;
     }
 
     // Update is called once per frame
