@@ -5,9 +5,17 @@ using UnityEngine.SceneManagement;
 
 public class PortalProperties : MonoBehaviour
 {
+    private GameObject player;
+    private GameObject gameControllerRef;
     public GameObject respawn;
     public GameObject portal;
     public float speed;
+
+    private void Start()
+    {
+        player = GameObject.FindGameObjectWithTag("Player");
+        gameControllerRef = GameObject.FindGameObjectWithTag("GameController");
+    }
 
     // Update is called once per frame
     void Update()
@@ -30,7 +38,8 @@ public class PortalProperties : MonoBehaviour
         {
             //move scenes or location
             //collision.gameObject.transform.position = respawn.transform.position;
-            SceneManager.LoadScene(0);
+            player.transform.position = respawn.transform.position;
+            gameControllerRef.GetComponent<GameController>().levelSpawCounter++;
         }
     }
 }

@@ -5405,6 +5405,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   respawnbox: {fileID: 57018882}
+  speed: 0
+  portal: {fileID: 0}
 --- !u!136 &715217643
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -5968,6 +5970,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   respawnbox: {fileID: 870881239}
+  speed: 0
+  portal: {fileID: 0}
 --- !u!1 &740998144
 GameObject:
   m_ObjectHideFlags: 0
@@ -11904,6 +11908,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   respawnbox: {fileID: 57018882}
+  speed: 0
+  portal: {fileID: 0}
 --- !u!136 &1378258656
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -13994,6 +14000,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   respawnbox: {fileID: 1095110020}
+  speed: 0
+  portal: {fileID: 0}
 --- !u!136 &1667473407
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -15860,6 +15868,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   respawnbox: {fileID: 2097731274}
+  speed: 0
+  portal: {fileID: 0}
 --- !u!136 &1904731448
 CapsuleCollider:
   m_ObjectHideFlags: 0
