@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Angelo Asset/Scene/TestLevel.unity
     guid: cafe4d050318e3445ba1a6f55080862a
+  - enabled: 1
+    path: Assets/GrandMaster/Platinum Folder/MasterScene.unity
+    guid: 7cce9c17abbc23a47bec2e30d14e6601
   m_configObjects: {}
