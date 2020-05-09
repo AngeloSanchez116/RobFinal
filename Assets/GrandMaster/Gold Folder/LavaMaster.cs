@@ -17,7 +17,7 @@ public class LavaMaster : MonoBehaviour
         if(collision.gameObject.tag == "Player")
         {
             //Lava effects to player
-            SceneManager.LoadScene(2);
+            SceneManager.LoadScene(0);
         }
     }
 }
