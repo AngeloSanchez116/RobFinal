@@ -12,12 +12,5 @@ public class LavaMaster : MonoBehaviour
         transform.Rotate(0, speed, 0);
     }
 
-    private void OnCollisionEnter(Collision collision)
-    {
-        if(collision.gameObject.tag == "Player")
-        {
-            //Lava effects to player
-            SceneManager.LoadScene(0);
-        }
-    }
+
 }

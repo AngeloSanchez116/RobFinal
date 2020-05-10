@@ -21,7 +21,7 @@ public class LavaTrigger : MonoBehaviour
         {
             audioSource.Play();
             gameController.GetComponent<GameController>().turnOnOffLava = true;
-            //Destroy(gameObject);
+            
         }
     }
 }
