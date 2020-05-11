@@ -32426,7 +32426,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Size.y
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 0.33010784
+=======
+      value: 0.22529383
+>>>>>>> parent of 3481f3d... Final Polish
 =======
       value: 0.22529383
 >>>>>>> parent of 3481f3d... Final Polish
@@ -32435,7 +32439,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Center.y
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 0.26039478
+=======
+      value: 0.31280142
+>>>>>>> parent of 3481f3d... Final Polish
 =======
       value: 0.31280142
 >>>>>>> parent of 3481f3d... Final Polish
