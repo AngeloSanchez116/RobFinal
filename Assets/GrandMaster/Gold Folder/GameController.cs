@@ -78,7 +78,7 @@ public class GameController : MonoBehaviour
                 if (levelSpawCounter == 5)
                 {
                     player.transform.position = respawning4.transform.position;
-                    lavaFloor.transform.position = new Vector3(472.2176f, 221f, 444.5937f);
+                    lavaFloor.transform.position = new Vector3(472.2176f, 214.6f, 444.5937f);
                 }
             }
         }
