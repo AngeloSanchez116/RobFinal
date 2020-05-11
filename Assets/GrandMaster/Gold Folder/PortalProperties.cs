@@ -28,7 +28,7 @@ public class PortalProperties : MonoBehaviour
         if(other.tag == "Player")
         {
             gameObject.GetComponentInChildren<Renderer>().enabled = true;
-            speed = 10;
+            speed = 30;
         }
     }
 
@@ -39,6 +39,8 @@ public class PortalProperties : MonoBehaviour
             //move scenes or location
             //collision.gameObject.transform.position = respawn.transform.position;
             player.transform.position = respawn.transform.position;
+            player.transform.rotation = respawn.transform.rotation;
+            player.GetComponent<Rigidbody>().velocity = Vector3.zero;
             gameControllerRef.GetComponent<GameController>().levelSpawCounter++;
         }
     }

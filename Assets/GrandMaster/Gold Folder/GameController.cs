@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class GameController : MonoBehaviour
 {
     private GameObject player;
+    public GameObject respawn;
     private GameObject lavaFloor;
     private GameObject updownPlat;
     public GameObject LavaTriggerRef;
@@ -28,6 +29,8 @@ public class GameController : MonoBehaviour
     {
         lavaFloor = GameObject.FindGameObjectWithTag("Lava");
         player = GameObject.FindGameObjectWithTag("Player");
+        player.transform.position = respawn.transform.position;
+        player.transform.rotation = respawn.transform.rotation;
     }
 
     // Update is called once per frame

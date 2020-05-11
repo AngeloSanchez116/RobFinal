@@ -42,10 +42,6 @@ public class PCroller : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
-        float rotHorizontal = Input.GetAxis("Mouse X") * turningSpeed * Time.deltaTime;
-        transform.Rotate(0, rotHorizontal, 0);
-
         if (!inAir && !Input.anyKey)
         {
             //print("Nothing is being pressed");
@@ -74,6 +70,9 @@ public class PCroller : MonoBehaviour
 
     private void FixedUpdate()
     {
+        float rotHorizontal = Input.GetAxis("Mouse X") * turningSpeed * Time.deltaTime;
+        transform.Rotate(0, rotHorizontal, 0);
+
         PlayerControl();
         GroundCheck();
 
@@ -91,21 +90,26 @@ public class PCroller : MonoBehaviour
     {
         /////////////////////////////////MOVEMENT CONTROLS///////////////////////////////////////////////////////
 
-        float m_Horizontal = Input.GetAxis("Horizontal") * straffingSpeed;
+        float m_Horizontal = Input.GetAxisRaw("Horizontal") * straffingSpeed;
         //transform.Translate(m_Horizontal, 0, 0);
+        //Vector3 MovementH = transform.right * m_Horizontal;
 
-        float m_Vertical = Input.GetAxis("Vertical");
+        float m_Vertical = Input.GetAxisRaw("Vertical");
         //transform.Translate(0, 0, m_Vertical);
-
+        //Vector3 MovementV = transform.forward * m_Vertical;
+        
         if(m_Vertical < 0)
         {
-            m_Vertical *= .4f;
+            m_Vertical *= .8f;
         }
 
         Vector3 Movement = transform.right * m_Horizontal + transform.forward * m_Vertical;
+        //playerRb.velocity = MovementH * movementSpeed * Time.deltaTime;
         playerRb.AddForce(Movement * movementSpeed, ForceMode.Impulse);
-        //playerRb.velocity();
 
+        //playerRb.AddForce(MovementH * movementSpeed, ForceMode.Impulse);
+        //playerRb.AddForce(MovementV * movementSpeed, ForceMode.Impulse);
+        
     }
 
     public void Jump()

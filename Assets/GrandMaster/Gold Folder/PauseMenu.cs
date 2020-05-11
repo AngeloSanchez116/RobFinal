@@ -19,18 +19,18 @@ public class PauseMenu : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.P))
+        if (Input.GetKeyDown(KeyCode.P)||Input.GetKeyDown(KeyCode.Escape))
         {
 
             if (gameIsPause)
             {
-
+                player.GetComponentInChildren<HeadYRotation>().enabled = true;
                 Resume();
 
             }
             else
             {
-
+                player.GetComponentInChildren<HeadYRotation>().enabled = false;
                 Pause();
 
             }

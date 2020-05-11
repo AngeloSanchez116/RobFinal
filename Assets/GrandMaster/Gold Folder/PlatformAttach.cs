@@ -16,6 +16,7 @@ public class PlatformAttach : MonoBehaviour
         if(other.gameObject == Player)
         {
             Player.transform.parent = transform;
+            Player.GetComponentInChildren<CustomHeadBob>().enabled = false;
         }
     }
 
@@ -24,6 +25,8 @@ public class PlatformAttach : MonoBehaviour
         if(other.gameObject == Player)
         {
             Player.transform.parent = null;
+            Player.transform.localScale = new Vector3(1, 1, 1);
+            Player.GetComponentInChildren<CustomHeadBob>().enabled = true;
         }
     }
 }

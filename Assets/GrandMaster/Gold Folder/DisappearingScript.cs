@@ -5,7 +5,7 @@ using UnityEngine;
 public class DisappearingScript : MonoBehaviour
 {
     public GameObject disappearingPlatform;
-    public int disappearingTmer = 0;
+    public float disappearingTmer = 0.0f;
     public int appearingTmer = 0;
     public AudioSource audiosource;
 
